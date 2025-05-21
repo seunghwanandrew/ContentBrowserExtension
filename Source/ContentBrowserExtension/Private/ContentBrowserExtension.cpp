@@ -748,7 +748,8 @@ void FContentBrowserExtensionModule::DuplicateBatchAssets(int32 NumberOfDuplicat
 			}
 		}
 	}
-	if (Counter > 0) DebugUtilities::ShowNotifyInfo("Successfully Duplicated " + FString::FromInt(Counter) + " Files");
+	
+    if (Counter > 0) DebugUtilities::ShowNotifyInfo("Successfully Duplicated " + FString::FromInt(Counter) + " Files");
 }
 
 void FContentBrowserExtensionModule::AddPrefix()
